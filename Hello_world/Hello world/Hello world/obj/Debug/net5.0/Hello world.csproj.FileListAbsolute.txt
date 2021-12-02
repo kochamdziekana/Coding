@@ -1,0 +1,40 @@
+D:\Coding\Hello_world\Hello world\Hello world\bin\Debug\net5.0\appsettings.Development.json
+D:\Coding\Hello_world\Hello world\Hello world\bin\Debug\net5.0\appsettings.json
+D:\Coding\Hello_world\Hello world\Hello world\bin\Debug\net5.0\Hello world.exe
+D:\Coding\Hello_world\Hello world\Hello world\bin\Debug\net5.0\Hello world.deps.json
+D:\Coding\Hello_world\Hello world\Hello world\bin\Debug\net5.0\Hello world.runtimeconfig.json
+D:\Coding\Hello_world\Hello world\Hello world\bin\Debug\net5.0\Hello world.runtimeconfig.dev.json
+D:\Coding\Hello_world\Hello world\Hello world\bin\Debug\net5.0\Hello world.dll
+D:\Coding\Hello_world\Hello world\Hello world\bin\Debug\net5.0\ref\Hello world.dll
+D:\Coding\Hello_world\Hello world\Hello world\bin\Debug\net5.0\Hello world.pdb
+D:\Coding\Hello_world\Hello world\Hello world\bin\Debug\net5.0\Hello world.Views.dll
+D:\Coding\Hello_world\Hello world\Hello world\bin\Debug\net5.0\Hello world.Views.pdb
+D:\Coding\Hello_world\Hello world\Hello world\obj\Debug\net5.0\Hello world.csprojAssemblyReference.cache
+D:\Coding\Hello_world\Hello world\Hello world\obj\Debug\net5.0\Hello world.GeneratedMSBuildEditorConfig.editorconfig
+D:\Coding\Hello_world\Hello world\Hello world\obj\Debug\net5.0\Hello world.AssemblyInfoInputs.cache
+D:\Coding\Hello_world\Hello world\Hello world\obj\Debug\net5.0\Hello world.AssemblyInfo.cs
+D:\Coding\Hello_world\Hello world\Hello world\obj\Debug\net5.0\Hello world.csproj.CoreCompileInputs.cache
+D:\Coding\Hello_world\Hello world\Hello world\obj\Debug\net5.0\Hello world.MvcApplicationPartsAssemblyInfo.cache
+D:\Coding\Hello_world\Hello world\Hello world\obj\Debug\net5.0\Hello world.RazorAssemblyInfo.cache
+D:\Coding\Hello_world\Hello world\Hello world\obj\Debug\net5.0\Hello world.RazorAssemblyInfo.cs
+D:\Coding\Hello_world\Hello world\Hello world\obj\Debug\net5.0\staticwebassets\Hello world.StaticWebAssets.Manifest.cache
+D:\Coding\Hello_world\Hello world\Hello world\obj\Debug\net5.0\staticwebassets\Hello world.StaticWebAssets.xml
+D:\Coding\Hello_world\Hello world\Hello world\obj\Debug\net5.0\scopedcss\bundle\Hello world.styles.css
+D:\Coding\Hello_world\Hello world\Hello world\obj\Debug\net5.0\Hello world.TagHelpers.input.cache
+D:\Coding\Hello_world\Hello world\Hello world\obj\Debug\net5.0\Hello world.TagHelpers.output.cache
+D:\Coding\Hello_world\Hello world\Hello world\obj\Debug\net5.0\Hello world.RazorCoreGenerate.cache
+D:\Coding\Hello_world\Hello world\Hello world\obj\Debug\net5.0\Razor\Pages\Error.cshtml.g.cs
+D:\Coding\Hello_world\Hello world\Hello world\obj\Debug\net5.0\Razor\Pages\Index.cshtml.g.cs
+D:\Coding\Hello_world\Hello world\Hello world\obj\Debug\net5.0\Razor\Pages\Privacy.cshtml.g.cs
+D:\Coding\Hello_world\Hello world\Hello world\obj\Debug\net5.0\Razor\Pages\Shared\_Layout.cshtml.g.cs
+D:\Coding\Hello_world\Hello world\Hello world\obj\Debug\net5.0\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\Coding\Hello_world\Hello world\Hello world\obj\Debug\net5.0\Razor\Pages\_ViewImports.cshtml.g.cs
+D:\Coding\Hello_world\Hello world\Hello world\obj\Debug\net5.0\Razor\Pages\_ViewStart.cshtml.g.cs
+D:\Coding\Hello_world\Hello world\Hello world\obj\Debug\net5.0\Hello world.RazorTargetAssemblyInfo.cache
+D:\Coding\Hello_world\Hello world\Hello world\obj\Debug\net5.0\Hello world.RazorTargetAssemblyInfo.cs
+D:\Coding\Hello_world\Hello world\Hello world\obj\Debug\net5.0\Hello world.Views.pdb
+D:\Coding\Hello_world\Hello world\Hello world\obj\Debug\net5.0\Hello world.dll
+D:\Coding\Hello_world\Hello world\Hello world\obj\Debug\net5.0\ref\Hello world.dll
+D:\Coding\Hello_world\Hello world\Hello world\obj\Debug\net5.0\Hello world.pdb
+D:\Coding\Hello_world\Hello world\Hello world\obj\Debug\net5.0\Hello world.genruntimeconfig.cache
+D:\Coding\Hello_world\Hello world\Hello world\obj\Debug\net5.0\Hello world.csproj.CopyComplete

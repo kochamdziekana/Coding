@@ -1,0 +1,106 @@
+Pisz z podziałem kodu źródłowego na pliki cpp i h (każda klasa w oddzielnym pliku cpp).
+Analizuj informacje wyprowadzane na ekran.
+Jeśli Twoje środowisko dysponuje taką możliwością to kontroluj zużycie pamięci.
+Jeśli destruktory zostały poprawnie zaimplementowane to liczba obiektów klasy Axe powinna wynosić na końcu 0.
+
+
+1.1. Napisz klasę opisująca oś wykresu Axe z polami prywatnymi (min, max i interval) i osobnymi metodami dostępowymi
+do tych pól jako metody publiczne (set,get). Napisz metodę wypisująca pola prywatne na ekranie i używaj jej do demonstracji działania programu.
+
+1.2. Do klasy Axe dodaj konstruktory: bezargumentowy, dwuargumentowy (min, max -> interval wyliczany na sztywno z min i max),
+wieloargumentowy kopiujący oraz destruktor.
+Każdy konstruktor i destruktor ma wypisywać informacje na ekranie gdy zostanie wywołany np. „Axe - konstruktor kopiujący”.
+Czy ma uzasadnienie napisania konstruktora przenoszącego dla klasy Axe?
+
+1.3. Napisz program (funkcję main i funkcję auxFun z argumentem typu obiekt Axe - w obu stwórz na różne sposoby obiekty Axe) demonstrujący użycie obiektów
+klasy Axe i wskaźników do klasy Axe.
+
+1.4. Dopisz do klasy Axe statyczną prywatną zmienną liczącą konstruowanie i destruowanie obiektów tej klasy.
+Wykorzystaj ten licznik w konstruktorze bezargumentowym do inicjowania pól min, max i interval.
+Uzupełnij informacje wyprowadzane prze konstruktory/destruktor o aktualną wartość tego licznika.
+Dopisz publiczną funkcję statyczną wypisującą aktualną wartośc tego licznika.
+Wypisuj wartość tego licznika na początku i na samym końcu programu oraz w innych wybranych miejscach.
+
+1.5. Stwórz klasę AxeSet do obsługi dynamicznej tablicy jednowymiarowej obiektów klasy Axe.
+Wykorzystaj klasyczne wskaźniki. Zaimplementuj konstruktor przenoszący dla tej klasy oraz destruktor.
+Napisz metodę wypisująca pola prywatne na ekranie i użyj jej do demonstracji działania programu (wykorzystaj metodę wypisującą klasy Axe)
+(np: axe[0]: min=0 max=10 interval = 1).
+
+____________________
+
+Jeżeli informacje na ekranie staną się nieczytelne z powodu ich nadmiaru to proszę zakomentować wyświetlanie w konstruktorach i destruktorach - można to zrobić wygodnie i sprytnie np. wykorzystując prekompilator lub stałą konfiguracyjną od której będzie zależeć wyświetlanie.
+
+2.1. Zdefiniuj zaprzyjaźnione operatory strumieniowe wypisujące zawartość obiektów Axe i AxeSet w strumieniu std::ostream. Wykorzystaj je zamiast poprzednio wykorzystywanych metod wyświetlających.
+
+2.2. Zdefiniuj operator przypisania klasy Axe. Wypisuj informację na ekranie gdy zostanie wywołany łącznie z wyświetlaniem zawartości lewego argumentu przed i po przypisaniu oraz argumentu  za pomocą operatora strumieniowego. Czy zauważasz większą wygodę ze stosowania operatora strumieniowego zamiast metody wypisującej? 
+Zademonstruj działanie tego operatora.
+
+2.3. Zdefiniuj operator przypisania klasy AxeSet. Wypisuj informację na ekranie gdy zostanie wywołany łącznie z wyświetlaniem zawartości lewego argumentu przed i po przypisaniu oraz argumentu  za pomocą operatora strumieniowego. 
+Zademonstruj działanie tego operatora.
+
+2.4. Zdefiniuj operator przeniesienia (bliźniaczego do konstruktora przenoszącego) klasy AxeSet. Wypisuj informację na ekranie gdy zostanie wywołany łącznie z wyświetlaniem zawartości lewego argumentu przed i po przypisaniu oraz argumentu za pomocą operatora strumieniowego. Użyj std::move( cos ) do wywołania tego operatora. Porównaj wynik działania tego operatora z operatorem przypisania.
+
+2.5. Zdefiniuj operator "dodawania osi" jako metodę klasy Axe: np   +   dodanie powinno dać w wyniku oś obejmującą obie osie będące argumentami (nawet jeśli doda się też zakres między nimi:  oś<-3,1> + oś<12, 12.34>  da w wyniku oś<-3, 12.34>
+
+2.6. Zdefiniuj operatory zmiany skali osi jako metody klasy Axe: np. *=  /=    zmiana powinna polegać na rozciągnięciu lub ściśnięciu względem aktualnego środka osi (np  oś<1,3>  *=2  da w wyniku  oś<0,4>
+
+2.7 Zdefiniuj operatory przesuwania osi jako zaprzyjaźnione funkcje klasy Axe: np. -=  +=   przesuwające oś o wskazaną liczbę.
+
+_________________________________
+
+Każdy nowy konstruktor, destruktor i operator ma wypisywać informacje na ekranie gdy zostanie wywołany!
+
+3.1 Zdefiniuj klasę Chart (w VisualStudio użyj Add Class) potomną od AxeSet, która będzie zawierać nowe pola: nazwę wykresu (wskaźnik do łańcucha znakowego), typ wykresu.
+Typ wykresu to nowa klasa enum z elementami np. XY, Column, Sunburst, Treemap w Chart.h.
+
+3.2 Napisz dla klasy Chart konstruktor bezargumentowy (wpisujący jakieś wartości domyślne i wykorzystaj delegowanie do konstruktora wieloargumentowego)
+i konstruktor wieloargumentowy (rozmiar, nazwa, typ) oraz destruktor.
+Użyj list inicjalizacyjnych w przypadku konstruktorów. Uaktywnij wypisywanie informacji w konstruktorach i destruktorze klasy AxeSet.
+
+3.3 Napisz dla klasy Chart zaprzyjaźniony operator strumieniowy wykorzystując operator strumieniowy klasy AxeSet (wykorzystaj rzutowanie na referencję do typu AxeSet).
+Uwaga na wypisywanie nieistniejącego łańcucha (wskaźnik wskazuje na nullptr).
+Dopisz w osobnej funkcji wywoływanej z main przykład wykorzystania napisanego do tej pory kodu klasy Chart.
+
+3.4 Napisz dla klasy Chart konstruktor kopiujący (czy można wykorzystać delegowanie do konstruktora wieloargumentowego?).
+Być może trzeba zmienić tryb dostępu do jakieś pola. Dopisz w tej osobnej funkcji przykład wykorzystania konstruktora kopiującego.
+Użyj list inicjalizacyjnych.
+
+3.5 Napisz dla klasy Chart konstruktor przenoszący. Dopisz w tej osobnej funkcji przykład wykorzystania konstruktora przenoszącego.
+Użyj list inicjalizacyjnych.
+
+3.6 Napisz dla klasy Chart operator przypisania. Dopisz w tej osobnej funkcji przykład wykorzystania operatora przypisania.
+
+3.7 Napisz dla klasy Chart operator przeniesienia. Dopisz w tej osobnej funkcji przykład wykorzystania operatora przeniesienia.
+
+3.8 Napisz dla klasy AxeSet operatory inkrementacji (zwiększający wymiar o 1) w obu konwencjach. Dopisz w tej osobnej funkcji przykład wykorzystania operatora inkrementacji.
+
+_________________________________________________
+Tworząc obiekty klasy Chart i pochodnych proszę wykorzystywać pole nazwa do łatwej identyfikacji obiektu.
+
+4.1 Dopisz do klasy Chart wirtualną funkcję "rysującą" draw(), która bedzie wypisywać tylko nazwę obiektu.
+W funkcji main usuń poprzedni kod, stwórz obiekt klasy Chart i zademonstruj rysowanie wykresu. 
+
+4.2 Dopisz 2 klasy potomne (na tym samym poziomie w hierarchii klas) z funkcjami rysującymi wykresy typów np. Column i Treemap
+(zamiast biblioteki graficznej proszę wypisywać np. kilku linijkowy komunikat udający wykres, do wypisywania nazwy obiektu wykorzystaj funkcję rysującą klasy Chart)
+oraz (minimalistyczne) konstruktory 2 argumentowe. Dopisz te klasy w plikach klasy Chart. 
+
+4.3 Napisz funkcję pomocniczą  auxFun_4, której argumentem wywołania będzie referencja do obiektu klasy Chart.
+W auxFun_4 wyrysuj wykres (przekazany argumentem wywołania) dwa razy: "wprost" oraz z rzutowaniem (klasycznym C) na funkcję rysującą klasy pochodnej, np:
+((SmthChart&)ch).draw()
+Wywołaj auxFun_4 raz z argumentem typu Chart, a raz z argumentem klasy pochodnej od Chart.
+
+4.4 Napisz analogiczną do auxFun_4 funkcję auxFun_4_DC ale: argumentem niech będzie wskaźnik do obiektu Chart, a rzutowanie ma być za pomocą dynamic_cast.
+Przed użyciem wskaźnika otrzymanego za pomoca dynamic_cast sprwadź czy nie jest równy nullptr i ewentualnie wyświelt odpowiedni komunikat
+Wywołaj auxFun_4_DC raz z argumentem typu Chart, a raz z argumentem klasy pochodnej od Chart.
+
+WGRAJ CAŁY KOD NA GITHUBa z adnotacją Zad.4.4
+
+4.5 Zmień nazwę funkcji draw() w klasie Chart na drawName() i zmień jej typ na zwykły.
+Dopisz czysto wirtualną funkcję draw(), użyj drawName zamiast draw() w klasach pochcodnych.
+Spróbuj skompilować kod - dlaczego nie można stworzyć obiektu klasy Chart?
+Popraw kod w main i funkcji pomocniczej.
+
+
+
+
+
