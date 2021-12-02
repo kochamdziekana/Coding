@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "c0429ba9-2285-40dc-93b9-ea931e1b29a8": {
+      "ProjectGuid": "c0429ba9-2285-40dc-93b9-ea931e1b29a8",
+      "DisplayName": "ToDos.MinimalAPI",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
