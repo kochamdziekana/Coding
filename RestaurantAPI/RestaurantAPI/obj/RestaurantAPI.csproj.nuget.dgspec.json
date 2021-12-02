@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Coding\\RestaurantAPI\\RestaurantAPI\\RestaurantAPI.csproj": {}
+    "D:\\Coding\\Coding\\RestaurantAPI\\RestaurantAPI\\RestaurantAPI.csproj": {}
   },
   "projects": {
-    "D:\\Coding\\RestaurantAPI\\RestaurantAPI\\RestaurantAPI.csproj": {
+    "D:\\Coding\\Coding\\RestaurantAPI\\RestaurantAPI\\RestaurantAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Coding\\RestaurantAPI\\RestaurantAPI\\RestaurantAPI.csproj",
+        "projectUniqueName": "D:\\Coding\\Coding\\RestaurantAPI\\RestaurantAPI\\RestaurantAPI.csproj",
         "projectName": "RestaurantAPI",
-        "projectPath": "D:\\Coding\\RestaurantAPI\\RestaurantAPI\\RestaurantAPI.csproj",
+        "projectPath": "D:\\Coding\\Coding\\RestaurantAPI\\RestaurantAPI\\RestaurantAPI.csproj",
         "packagesPath": "C:\\Users\\czech\\.nuget\\packages\\",
-        "outputPath": "D:\\Coding\\RestaurantAPI\\RestaurantAPI\\obj\\",
+        "outputPath": "D:\\Coding\\Coding\\RestaurantAPI\\RestaurantAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
