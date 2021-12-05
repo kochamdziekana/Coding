@@ -25,3 +25,5 @@ D:\Coding\Coding\ToDos.MinimalAPI\ToDos.MinimalAPI\obj\Debug\net6.0\ToDos.Minima
 D:\Coding\Coding\ToDos.MinimalAPI\ToDos.MinimalAPI\obj\Debug\net6.0\ref\ToDos.MinimalAPI.dll
 D:\Coding\Coding\ToDos.MinimalAPI\ToDos.MinimalAPI\obj\Debug\net6.0\ToDos.MinimalAPI.pdb
 D:\Coding\Coding\ToDos.MinimalAPI\ToDos.MinimalAPI\obj\Debug\net6.0\ToDos.MinimalAPI.genruntimeconfig.cache
+D:\Coding\Coding\ToDos.MinimalAPI\ToDos.MinimalAPI\bin\Debug\net6.0\FluentValidation.dll
+D:\Coding\Coding\ToDos.MinimalAPI\ToDos.MinimalAPI\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
