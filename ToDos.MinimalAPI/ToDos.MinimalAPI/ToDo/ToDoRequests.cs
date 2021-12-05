@@ -5,19 +5,36 @@ public static class ToDoRequests   // klasa odpowiedzialna za endpointy
     public static WebApplication RegisterEndpoints(this WebApplication app) // builder.Build();
     {
         //app.MapGet("/todos", (IToDoService service) => service.GetAll());
-        app.MapGet("/todos", ToDoRequests.GetAll);
-
         //app.MapGet("/todos/{id}", ([FromServices]IToDoService service, [FromRoute]Guid id) => service.GetById(id));
-        app.MapGet("/todos/{id}", ToDoRequests.GetById);
-
         //app.MapPost("/todos", (IToDoService service, ToDo toDo) => service.Create(toDo)); // może być z [FromBody]
-        app.MapPost("/todos", ToDoRequests.Create);
-
         //app.MapPut("/todos/{id}", (IToDoService service, Guid id, ToDo toDo) => service.Update(toDo));
-        app.MapPut("/todos/{id}", ToDoRequests.Update);
-
         //app.MapDelete("/todos/{id}", (IToDoService service, Guid id) => service.Delete(id));
-        app.MapDelete("/todos/{id}", ToDoRequests.Delete);
+
+        app.MapGet("/todos", ToDoRequests.GetAll)
+            .Produces<List<ToDo>>()    // domyślny kod - 200, informacja np do swaggera co zwraca bo IResult nie przyjmuje typów generycznych
+            .WithTags("To Dos");
+        app.MapGet("/todos/{id}", ToDoRequests.GetById)
+            .Produces<ToDo>()
+            .Produces(404)  // .Produces(StatusCodes.Status404NotFound);
+            .WithTags("To Dos");
+
+        app.MapPost("/todos", ToDoRequests.Create)
+            .Produces<ToDo>(201)    // .Produces(StatusCodes.Status201Created);
+            .Accepts<ToDo>("application/json")  // application/json żeby powiedzieć metodzie Accepts jaki format danych przyjmuje (tj. json)
+            .WithTags("To Dos");
+
+        app.MapPut("/todos/{id}", ToDoRequests.Update)
+            .Produces<ToDo>(204)    // .Produces(StatusCodes.Status204NoContent);
+            .Produces(404)
+            .Accepts<ToDo>("application/json")
+            .WithTags("To Dos");
+
+        app.MapDelete("/todos/{id}", ToDoRequests.Delete)
+            .Produces(204)
+            .Produces(404)
+            .WithTags("To Dos")
+            .ExcludeFromDescription();
+
 
         return app;
     }
