@@ -1,4 +1,5 @@
 ﻿using FluentValidation;
+using Microsoft.AspNetCore.Authorization;
 
 namespace ToDos.MinimalAPI;
 
@@ -14,7 +15,9 @@ public static class ToDoRequests   // klasa odpowiedzialna za endpointy
 
         app.MapGet("/todos", ToDoRequests.GetAll)
             .Produces<List<ToDo>>()    // domyślny kod - 200, informacja np do swaggera co zwraca bo IResult nie przyjmuje typów generycznych
-            .WithTags("To Dos");
+            .WithTags("To Dos")
+            .RequireAuthorization();    // można dodać konkretne polityki poprzez parametry
+
         app.MapGet("/todos/{id}", ToDoRequests.GetById)
             .Produces<ToDo>()
             .Produces(404)  // .Produces(StatusCodes.Status404NotFound);
@@ -23,13 +26,15 @@ public static class ToDoRequests   // klasa odpowiedzialna za endpointy
         app.MapPost("/todos", ToDoRequests.Create)
             .Produces<ToDo>(201)    // .Produces(StatusCodes.Status201Created);
             .Accepts<ToDo>("application/json")  // application/json żeby powiedzieć metodzie Accepts jaki format danych przyjmuje (tj. json)
-            .WithTags("To Dos");
+            .WithTags("To Dos")
+            .WithValidator<ToDo>();
 
         app.MapPut("/todos/{id}", ToDoRequests.Update)
             .Produces<ToDo>(204)    // .Produces(StatusCodes.Status204NoContent);
             .Produces(404)
             .Accepts<ToDo>("application/json")
-            .WithTags("To Dos");
+            .WithTags("To Dos")
+            .WithValidator<ToDo>();
 
         app.MapDelete("/todos/{id}", ToDoRequests.Delete)
             .Produces(204)
@@ -47,6 +52,7 @@ public static class ToDoRequests   // klasa odpowiedzialna za endpointy
         return Results.Ok(todos);
     }
 
+
     public static IResult GetById(IToDoService service, Guid id)
     {
         var todo = service.GetById(id);
@@ -58,28 +64,15 @@ public static class ToDoRequests   // klasa odpowiedzialna za endpointy
         return Results.Ok(todo);
     }
 
-    public static IResult Create(IToDoService service, ToDo toDo, IValidator<ToDo> validator)
+    [Authorize]
+    public static IResult Create(IToDoService service, ToDo toDo)
     {
-        var validationResult = validator.Validate(toDo);
-
-        if (!validationResult.IsValid)
-        {
-            return Results.BadRequest(validationResult.Errors);
-        }
-
         service.Create(toDo);
         return Results.Created($"/todos/{toDo.Id}", toDo);
     }
 
-    public static IResult Update(IToDoService service, Guid id, ToDo toDo, IValidator<ToDo> validator)
+    public static IResult Update(IToDoService service, Guid id, ToDo toDo)
     {
-        var validationResult = validator.Validate(toDo);
-
-        if (!validationResult.IsValid)
-        {
-            return Results.BadRequest(validationResult.Errors);
-        }
-
         var todo = service.GetById(id);
         if (todo == null)
         {

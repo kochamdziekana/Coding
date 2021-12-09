@@ -27,3 +27,10 @@ D:\Coding\Coding\ToDos.MinimalAPI\ToDos.MinimalAPI\obj\Debug\net6.0\ToDos.Minima
 D:\Coding\Coding\ToDos.MinimalAPI\ToDos.MinimalAPI\obj\Debug\net6.0\ToDos.MinimalAPI.genruntimeconfig.cache
 D:\Coding\Coding\ToDos.MinimalAPI\ToDos.MinimalAPI\bin\Debug\net6.0\FluentValidation.dll
 D:\Coding\Coding\ToDos.MinimalAPI\ToDos.MinimalAPI\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
+D:\Coding\Coding\ToDos.MinimalAPI\ToDos.MinimalAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Coding\Coding\ToDos.MinimalAPI\ToDos.MinimalAPI\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Coding\Coding\ToDos.MinimalAPI\ToDos.MinimalAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\Coding\Coding\ToDos.MinimalAPI\ToDos.MinimalAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\Coding\Coding\ToDos.MinimalAPI\ToDos.MinimalAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Coding\Coding\ToDos.MinimalAPI\ToDos.MinimalAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\Coding\Coding\ToDos.MinimalAPI\ToDos.MinimalAPI\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll

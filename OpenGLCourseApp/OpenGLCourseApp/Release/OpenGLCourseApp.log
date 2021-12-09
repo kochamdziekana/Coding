@@ -1,0 +1,4 @@
+﻿  main.cpp
+main.obj : error LNK2001: nierozpoznany symbol zewnętrzny __imp__glewExperimental
+main.obj : error LNK2001: nierozpoznany symbol zewnętrzny __imp__glewInit@0
+D:\Coding\Coding\OpenGLCourseApp\Release\OpenGLCourseApp.exe : fatal error LNK1120: liczba nierozpoznanych elementów zewnętrznych: 2

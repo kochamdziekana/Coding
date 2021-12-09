@@ -1,0 +1,16 @@
+﻿main.obj : error LNK2019: nierozpoznany symbol zewnętrzny __imp_glewInit przywołany w funkcji main
+main.obj : error LNK2019: nierozpoznany symbol zewnętrzny glfwInit przywołany w funkcji main
+main.obj : error LNK2019: nierozpoznany symbol zewnętrzny glfwTerminate przywołany w funkcji main
+main.obj : error LNK2019: nierozpoznany symbol zewnętrzny glfwWindowHint przywołany w funkcji main
+main.obj : error LNK2019: nierozpoznany symbol zewnętrzny glfwCreateWindow przywołany w funkcji main
+main.obj : error LNK2019: nierozpoznany symbol zewnętrzny glfwDestroyWindow przywołany w funkcji main
+main.obj : error LNK2019: nierozpoznany symbol zewnętrzny glfwWindowShouldClose przywołany w funkcji main
+main.obj : error LNK2019: nierozpoznany symbol zewnętrzny glfwGetFramebufferSize przywołany w funkcji main
+main.obj : error LNK2019: nierozpoznany symbol zewnętrzny glfwPollEvents przywołany w funkcji main
+main.obj : error LNK2019: nierozpoznany symbol zewnętrzny glfwMakeContextCurrent przywołany w funkcji main
+main.obj : error LNK2019: nierozpoznany symbol zewnętrzny glfwSwapBuffers przywołany w funkcji main
+main.obj : error LNK2019: nierozpoznany symbol zewnętrzny __imp_glewExperimental przywołany w funkcji main
+D:\Coding\Coding\OpenGLCourseApp\\External Libs\GLFW\glfw-3.3.5.bin.WIN32\lib-vc2022\glfw3.lib : warning LNK4272: wystąpił konflikt typu maszyny biblioteki „x86” z typem maszyny docelowej „x64”
+D:\Coding\Coding\OpenGLCourseApp\\External Libs\GLEW\lib\Release\Win32\glew32s.lib : warning LNK4272: wystąpił konflikt typu maszyny biblioteki „x86” z typem maszyny docelowej „x64”
+D:\Coding\Coding\OpenGLCourseApp\\External Libs\GLEW\lib\Release\Win32\glew32.lib : warning LNK4272: wystąpił konflikt typu maszyny biblioteki „x86” z typem maszyny docelowej „x64”
+D:\Coding\Coding\OpenGLCourseApp\x64\Debug\OpenGLCourseApp.exe : fatal error LNK1120: liczba nierozpoznanych elementów zewnętrznych: 12
