@@ -5,6 +5,42 @@
 // wymiary okna
 const GLint WIDTH = 800, HEIGHT = 600;
 
+GLuint VAO, VBO, shader;
+
+// pierwszy shader jeszcze nie wyodrêbniony do innego pliku
+// Vertex Shader
+static const char* vShader = "					\n\
+#version 330									\n\
+												\n\
+layout (location = 0) in vec3 pos;				\n\
+";
+
+// in = input, vec3 = 3-wartoœciowy wektor, 
+
+
+void CreateTriangle() {
+	GLfloat vertices[] = {
+		-1.0f, -1.0f, 0.0f,
+		1.0f, -1.0f, 0.0f,
+		0.0f, 1.0f, 0.0f
+	};
+
+	glGenVertexArrays(1, &VAO);
+	glBindVertexArray(VAO); // bindowanie VAOid do VAO
+
+	glGenBuffers(1, &VBO);
+	glBindBuffer(GL_ARRAY_BUFFER, VBO);
+
+	glBufferData(GL_ARRAY_BUFFER, sizeof(vertices), vertices, GL_STATIC_DRAW); // staticdraw - niezmienialny rysunek, dynamicdraw - mo¿na zmieniaæ
+
+	glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 0, 0);	//  INDEX = 0, SIZE = 3 (bo 3 wierzcho³ki), GL_FLOAT bo zmienne typu float, GL_FALSE bo nie jest normalizowane
+	glEnableVertexAttribArray(0);
+
+	glBindBuffer(GL_ARRAY_BUFFER, 0); // odbindowanie wczesniejszych buforów
+
+	glBindVertexArray(0);	// odbindowanie arraya vertexów
+}
+
 int main()
 {
 	// inicjalizacja GLFW
