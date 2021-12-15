@@ -1,24 +1,61 @@
 #include <stdio.h>
-#include <GL/glew.h>
-#include <GLFW/glfw3.h>
+#include <stdlib.h>
+#include <iostream>
+#include <GL\glew.h>
+#include <GLFW\glfw3.h>
+
+#include <glm\glm.hpp>
+#include <glm\gtc\matrix_transform.hpp>
+#include <glm\gtc\type_ptr.hpp> // do parsowania wartoœci
+
+// glm::mat4 model(1.0f); lub glm::mat4 model = glm::mat4(1.0f);
+// model = glm::mat(1.0f);
+
+
 
 // wymiary okna
 const GLint WIDTH = 800, HEIGHT = 600;
 
-GLuint VAO, VBO, shader;
+GLuint VAO, VBO, shader, uniformModel;
+
+bool direction = true;
+float triOffset = 0.0f;
+float triMaxOffset = 0.7f;
+float triIncrement = 0.005f; // ruch o tyle od 0.0 do 0.7, bool zmieni kierunek ruchu
 
 // pierwszy shader jeszcze nie wyodrêbniony do innego pliku
 // Vertex Shader
-static const char* vShader = "					\n\
-#version 330									\n\
-												\n\
-layout (location = 0) in vec3 pos;				\n\
-";
+//gl_Position wbudowana zmienna shadera
+static const char* vShader = "											\n\
+#version 330															\n\
+																		\n\
+layout (location = 0) in vec3 pos;										\n\
+																		\n\
+uniform float xMove;													\n\
+																		\n\
+																		\n\
+void main()																\n\
+{																		\n\
+	gl_Position	= vec4(0.4 * pos.x + xMove, 0.4 * pos.y, pos.z, 1.0);	\n\
+}";												
 
 // in = input, vec3 = 3-wartoœciowy wektor, 
 
+//fShader - fragment shader
+//out tutaj default = color
+static const char* fShader = "											\n\
+#version 330															\n\
+																		\n\
+out vec4 colour;														\n\
+																		\n\
+void main()																\n\
+{																		\n\
+	colour = vec4(1.0, 0.0, 0.0, 1.0);									\n\
+}";
+
 
 void CreateTriangle() {
+
 	GLfloat vertices[] = {
 		-1.0f, -1.0f, 0.0f,
 		1.0f, -1.0f, 0.0f,
@@ -39,6 +76,68 @@ void CreateTriangle() {
 	glBindBuffer(GL_ARRAY_BUFFER, 0); // odbindowanie wczesniejszych buforów
 
 	glBindVertexArray(0);	// odbindowanie arraya vertexów
+}
+
+void AddShader(GLuint theProgram, const char* shaderCode, GLenum shaderType) {	// dodaje shadery do programu po kompilacji
+	GLuint theShader = glCreateShader(shaderType);
+	
+	const GLchar* theCode[1]; // pierwszy element tablicy
+	theCode[0] = shaderCode;
+
+	GLint codeLenght[1];
+	codeLenght[0] = strlen(shaderCode);
+
+	glShaderSource(theShader, 1, theCode, codeLenght);
+	glCompileShader(theShader);
+
+	GLint result = 0;
+	GLchar eLog[1024] = { 0 };	// najtrudniejsze do debugowania shadery, krok po kroku trzeba je debugowaæ
+
+	glGetShaderiv(theShader, GL_COMPILE_STATUS, &result);
+
+	if (!result) {
+		glGetShaderInfoLog(shader, sizeof(eLog), NULL, eLog);
+		printf("Error compiling the %d shader: '%s'\n", shaderType, eLog);
+		return;
+	}
+
+	glAttachShader(theProgram, theShader);
+}
+
+void CompileShaders() {	// ³¹czy wszystkie shadery z programem i waliduje go
+	shader = glCreateProgram();
+
+	if (!shader) {
+		printf("Error creating shader program.");
+		return;	// lepiej stworzyæ wyj¹tek
+	}
+
+	AddShader(shader, vShader, GL_VERTEX_SHADER);
+	AddShader(shader, fShader, GL_FRAGMENT_SHADER);
+
+	GLint result = 0;
+	GLchar eLog[1024] = { 0 };	// najtrudniejsze do debugowania shadery, krok po kroku trzeba je debugowaæ
+
+	glLinkProgram(shader);
+	glGetProgramiv(shader, GL_LINK_STATUS, &result);
+
+	if (!result) {
+		glGetProgramInfoLog(shader, sizeof(eLog), NULL, eLog);
+		printf("Error linking program: '%s'\n", eLog);
+		return;
+	}
+
+	glValidateProgram(shader);	// walidacja programu (czyli shaderów)
+	glGetProgramiv(shader, GL_VALIDATE_STATUS, &result);
+
+	if (!result) {
+		glGetProgramInfoLog(shader, sizeof(eLog), NULL, eLog);
+		printf("Error validating program: '%s'\n", eLog);
+		return;
+	}
+
+	uniformModel = glGetUniformLocation(shader, "xMove");
+
 }
 
 int main()
@@ -89,15 +188,41 @@ int main()
 	// ustawienie rozmiaru Viewport 
 	glViewport(0, 0, bufferWidth, bufferHeight); // width inne ni¿ WIDTH i height inne ni¿ HEIGHT
 
+	CreateTriangle();
+	CompileShaders();
+
+
 	// pêtla dopóki okno nie jest zamkniête
 	while (!glfwWindowShouldClose(mainWindow))
 	{
 		// wydobycie i zarz¹dzanie eventami inputu
 		glfwPollEvents();
 
+		if (direction) {
+			triOffset += triIncrement;
+		}
+		else {
+			triOffset -= triIncrement;
+		}
+
+		if (abs(triOffset) >= triMaxOffset) {
+			direction = !direction;
+		}
+
 		// wyczyszczenie okna
 		glClearColor(1.0f, 0.5f, 0.0f, 1.0f);
 		glClear(GL_COLOR_BUFFER_BIT);
+
+		glUseProgram(shader);	// wybiera który program ma byæ u¿ywany
+
+		glUniform1f(uniformModel, triOffset);
+
+		glBindVertexArray(VAO);
+
+		glDrawArrays(GL_TRIANGLES, 0, 3);	// 3 bo jeden obiekt
+
+		glBindVertexArray(0);
+		glUseProgram(0);
 
 		glfwSwapBuffers(mainWindow);
 	}

@@ -1,4 +1,6 @@
 ﻿  main.cpp
-main.obj : error LNK2001: nierozpoznany symbol zewnętrzny __imp__glewExperimental
-main.obj : error LNK2001: nierozpoznany symbol zewnętrzny __imp__glewInit@0
-D:\Coding\Coding\OpenGLCourseApp\Release\OpenGLCourseApp.exe : fatal error LNK1120: liczba nierozpoznanych elementów zewnętrznych: 2
+  Trwa generowanie kodu
+  Previous IPDB not found, fall back to full compilation.
+  All 9 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Zakończono generowanie kodu
+  OpenGLCourseApp.vcxproj -> D:\Coding\Coding\OpenGLCourseApp\Release\OpenGLCourseApp.exe
