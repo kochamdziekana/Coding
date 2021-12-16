@@ -15,28 +15,36 @@
 
 // wymiary okna
 const GLint WIDTH = 800, HEIGHT = 600;
+const float degreesInRadians = 3.14159265f / 180.0f;
 
 GLuint VAO, VBO, shader, uniformModel;
+
+
 
 bool direction = true;
 float triOffset = 0.0f;
 float triMaxOffset = 0.7f;
 float triIncrement = 0.005f; // ruch o tyle od 0.0 do 0.7, bool zmieni kierunek ruchu
 
+bool rotation = true;
+float rotateBeg = 0.0f;
+float rotateEnd = 3.14f;
+float rotateIncrement = 0.1f;
+
 // pierwszy shader jeszcze nie wyodrêbniony do innego pliku
 // Vertex Shader
 //gl_Position wbudowana zmienna shadera
-static const char* vShader = "											\n\
-#version 330															\n\
-																		\n\
-layout (location = 0) in vec3 pos;										\n\
-																		\n\
-uniform float xMove;													\n\
-																		\n\
-																		\n\
-void main()																\n\
-{																		\n\
-	gl_Position	= vec4(0.4 * pos.x + xMove, 0.4 * pos.y, pos.z, 1.0);	\n\
+static const char* vShader = "													\n\
+#version 330																	\n\
+																				\n\
+layout (location = 0) in vec3 pos;												\n\
+																				\n\
+uniform mat4 model;																\n\
+																				\n\
+																				\n\
+void main()																		\n\
+{																				\n\
+	gl_Position	= model * vec4(0.4 * pos.x, 0.4 * pos.y, pos.z, 1.0);	\n\
 }";												
 
 // in = input, vec3 = 3-wartoœciowy wektor, 
@@ -136,7 +144,7 @@ void CompileShaders() {	// ³¹czy wszystkie shadery z programem i waliduje go
 		return;
 	}
 
-	uniformModel = glGetUniformLocation(shader, "xMove");
+	uniformModel = glGetUniformLocation(shader, "model");
 
 }
 
@@ -209,13 +217,28 @@ int main()
 			direction = !direction;
 		}
 
+		if (rotation) {
+			rotateBeg += rotateIncrement;
+		}
+		else {
+			rotateBeg -= rotateIncrement;
+		}
+
+		if (abs(rotateBeg) >= rotateEnd) {
+			rotation = !rotation;
+		}
+
+		glm::mat4 model(1.0f);	// matrix 4x4
+		model = glm::translate(model, glm::vec3(triOffset, triOffset, 0.0f));
+		//model = glm::rotate(model, rotateBeg, glm::vec3(1.0f, 0.0f, 0.0f)); fajnie siê krêci
+
 		// wyczyszczenie okna
 		glClearColor(1.0f, 0.5f, 0.0f, 1.0f);
 		glClear(GL_COLOR_BUFFER_BIT);
 
 		glUseProgram(shader);	// wybiera który program ma byæ u¿ywany
 
-		glUniform1f(uniformModel, triOffset);
+		glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model)); // false bo nie chcemy transponowaæ, glm::value_ptr musi byæ ¿eby wskazaæ dok³adnie na wartoœæ modelu
 
 		glBindVertexArray(VAO);
 
