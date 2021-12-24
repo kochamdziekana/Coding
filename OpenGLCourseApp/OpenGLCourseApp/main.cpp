@@ -31,6 +31,11 @@ float rotateBeg = 0.0f;
 float rotateEnd = 3.14f;
 float rotateIncrement = 0.1f;
 
+bool scale = true;
+float curScale = 0.1f;
+float maxScale = 1.0f;
+float minScale = 0.0f;
+
 // pierwszy shader jeszcze nie wyodrêbniony do innego pliku
 // Vertex Shader
 //gl_Position wbudowana zmienna shadera
@@ -44,8 +49,8 @@ uniform mat4 model;																\n\
 																				\n\
 void main()																		\n\
 {																				\n\
-	gl_Position	= model * vec4(0.4 * pos.x, 0.4 * pos.y, pos.z, 1.0);	\n\
-}";												
+	gl_Position	= model * vec4(pos, 1.0);										\n\
+}";												// pos jeœli nie zmieniamy ¿adnej wartoœci to mozna zamiast pos.x, pos.y, pos.z
 
 // in = input, vec3 = 3-wartoœciowy wektor, 
 
@@ -223,14 +228,30 @@ int main()
 		else {
 			rotateBeg -= rotateIncrement;
 		}
-
+		
 		if (abs(rotateBeg) >= rotateEnd) {
 			rotation = !rotation;
 		}
 
+		if (scale) {
+			curScale += 0.01f;
+		}
+		else {
+			curScale -= 0.01f;
+		}
+
+		if (curScale >= maxScale) {
+			scale = !scale;
+		}
+		if (curScale <= minScale) {
+			scale = !scale;
+		}
+
 		glm::mat4 model(1.0f);	// matrix 4x4
 		model = glm::translate(model, glm::vec3(triOffset, triOffset, 0.0f));
-		//model = glm::rotate(model, rotateBeg, glm::vec3(1.0f, 0.0f, 0.0f)); fajnie siê krêci
+		model = glm::rotate(model, rotateBeg, glm::vec3(1.0f, 1.0f, 1.0f)); //fajnie siê krêci, zniekszta³cenia ze wzglêdu na to, w którym "œwiecie" obraca siê trójk¹t
+		model = glm::scale(model, glm::vec3(curScale, 0.4f, 1.0f));	// jeœli przed translate to skaluje siê te¿ translacja
+
 
 		// wyczyszczenie okna
 		glClearColor(1.0f, 0.5f, 0.0f, 1.0f);
