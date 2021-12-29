@@ -1,0 +1,15 @@
+D:\Coding\Coding\ProjectDesign\ProjectDesign\ProjectDesign\bin\Debug\net6.0\ProjectDesign.exe
+D:\Coding\Coding\ProjectDesign\ProjectDesign\ProjectDesign\bin\Debug\net6.0\ProjectDesign.deps.json
+D:\Coding\Coding\ProjectDesign\ProjectDesign\ProjectDesign\bin\Debug\net6.0\ProjectDesign.runtimeconfig.json
+D:\Coding\Coding\ProjectDesign\ProjectDesign\ProjectDesign\bin\Debug\net6.0\ProjectDesign.dll
+D:\Coding\Coding\ProjectDesign\ProjectDesign\ProjectDesign\bin\Debug\net6.0\ref\ProjectDesign.dll
+D:\Coding\Coding\ProjectDesign\ProjectDesign\ProjectDesign\bin\Debug\net6.0\ProjectDesign.pdb
+D:\Coding\Coding\ProjectDesign\ProjectDesign\ProjectDesign\obj\Debug\net6.0\ProjectDesign.csproj.AssemblyReference.cache
+D:\Coding\Coding\ProjectDesign\ProjectDesign\ProjectDesign\obj\Debug\net6.0\ProjectDesign.GeneratedMSBuildEditorConfig.editorconfig
+D:\Coding\Coding\ProjectDesign\ProjectDesign\ProjectDesign\obj\Debug\net6.0\ProjectDesign.AssemblyInfoInputs.cache
+D:\Coding\Coding\ProjectDesign\ProjectDesign\ProjectDesign\obj\Debug\net6.0\ProjectDesign.AssemblyInfo.cs
+D:\Coding\Coding\ProjectDesign\ProjectDesign\ProjectDesign\obj\Debug\net6.0\ProjectDesign.csproj.CoreCompileInputs.cache
+D:\Coding\Coding\ProjectDesign\ProjectDesign\ProjectDesign\obj\Debug\net6.0\ProjectDesign.dll
+D:\Coding\Coding\ProjectDesign\ProjectDesign\ProjectDesign\obj\Debug\net6.0\ref\ProjectDesign.dll
+D:\Coding\Coding\ProjectDesign\ProjectDesign\ProjectDesign\obj\Debug\net6.0\ProjectDesign.pdb
+D:\Coding\Coding\ProjectDesign\ProjectDesign\ProjectDesign\obj\Debug\net6.0\ProjectDesign.genruntimeconfig.cache
