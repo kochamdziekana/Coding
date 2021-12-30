@@ -6,7 +6,7 @@ namespace ProjectDesign
 {
     public class Program
     {
-        public static void Main(string[] args)
+        public static void Main(string[] args)  // rozszerzalność funkcjonalności bez modyfikacji 
         {
 
         }

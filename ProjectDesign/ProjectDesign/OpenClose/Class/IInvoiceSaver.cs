@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ProjectDesign
+namespace OpenClose.Class
 {
-    interface IPrinter
+    public interface IInvoiceSaver
     {
-        void Print(string text);
+        void Save(Invoice invoice);
     }
 }

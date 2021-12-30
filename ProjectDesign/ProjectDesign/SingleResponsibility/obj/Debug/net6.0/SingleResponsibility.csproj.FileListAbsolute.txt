@@ -1,0 +1,15 @@
+D:\Coding\Coding\ProjectDesign\ProjectDesign\SingleResponsibility\bin\Debug\net6.0\SingleResponsibility.exe
+D:\Coding\Coding\ProjectDesign\ProjectDesign\SingleResponsibility\bin\Debug\net6.0\SingleResponsibility.deps.json
+D:\Coding\Coding\ProjectDesign\ProjectDesign\SingleResponsibility\bin\Debug\net6.0\SingleResponsibility.runtimeconfig.json
+D:\Coding\Coding\ProjectDesign\ProjectDesign\SingleResponsibility\bin\Debug\net6.0\SingleResponsibility.dll
+D:\Coding\Coding\ProjectDesign\ProjectDesign\SingleResponsibility\bin\Debug\net6.0\ref\SingleResponsibility.dll
+D:\Coding\Coding\ProjectDesign\ProjectDesign\SingleResponsibility\bin\Debug\net6.0\SingleResponsibility.pdb
+D:\Coding\Coding\ProjectDesign\ProjectDesign\SingleResponsibility\obj\Debug\net6.0\SingleResponsibility.csproj.AssemblyReference.cache
+D:\Coding\Coding\ProjectDesign\ProjectDesign\SingleResponsibility\obj\Debug\net6.0\SingleResponsibility.GeneratedMSBuildEditorConfig.editorconfig
+D:\Coding\Coding\ProjectDesign\ProjectDesign\SingleResponsibility\obj\Debug\net6.0\SingleResponsibility.AssemblyInfoInputs.cache
+D:\Coding\Coding\ProjectDesign\ProjectDesign\SingleResponsibility\obj\Debug\net6.0\SingleResponsibility.AssemblyInfo.cs
+D:\Coding\Coding\ProjectDesign\ProjectDesign\SingleResponsibility\obj\Debug\net6.0\SingleResponsibility.csproj.CoreCompileInputs.cache
+D:\Coding\Coding\ProjectDesign\ProjectDesign\SingleResponsibility\obj\Debug\net6.0\SingleResponsibility.dll
+D:\Coding\Coding\ProjectDesign\ProjectDesign\SingleResponsibility\obj\Debug\net6.0\ref\SingleResponsibility.dll
+D:\Coding\Coding\ProjectDesign\ProjectDesign\SingleResponsibility\obj\Debug\net6.0\SingleResponsibility.pdb
+D:\Coding\Coding\ProjectDesign\ProjectDesign\SingleResponsibility\obj\Debug\net6.0\SingleResponsibility.genruntimeconfig.cache

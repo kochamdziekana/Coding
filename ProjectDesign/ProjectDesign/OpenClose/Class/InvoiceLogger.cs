@@ -1,0 +1,26 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace OpenClose.Class
+{
+    public class InvoiceLogger  // wyświetla w konsoli tylko -> jedna odpowiedzialność
+    {
+
+        private Invoice _invoice;
+
+        public InvoiceLogger(Invoice invoice)
+        {
+            _invoice = invoice;
+        }
+
+        public void Display()
+        {
+            Console.WriteLine($"Vendor: {_invoice.Vendor}");
+            Console.WriteLine($"Vendee: {_invoice.Vendee}");
+            Console.WriteLine($"Total: {_invoice.Total}");
+        }
+    }
+}
