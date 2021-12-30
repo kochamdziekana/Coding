@@ -5,7 +5,17 @@
       "ProjectGuid": "605babbe-cc8d-4c1e-836e-3607a01ae4f9",
       "DisplayName": "ProjectDesign",
       "ColorIndex": 0
+    },
+    "94cefc36-92f9-4f12-b8c2-7f5c983d88ff": {
+      "ProjectGuid": "94cefc36-92f9-4f12-b8c2-7f5c983d88ff",
+      "DisplayName": "SingleResponsibility",
+      "ColorIndex": 1
+    },
+    "b2d78525-fdfc-42a4-ae84-78af5a7cc493": {
+      "ProjectGuid": "b2d78525-fdfc-42a4-ae84-78af5a7cc493",
+      "DisplayName": "OpenClose",
+      "ColorIndex": 2
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 3
 }
