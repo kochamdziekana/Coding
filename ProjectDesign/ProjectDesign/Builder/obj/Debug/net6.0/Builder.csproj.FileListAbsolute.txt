@@ -1,0 +1,14 @@
+D:\Coding\Coding\ProjectDesign\ProjectDesign\Builder\bin\Debug\net6.0\Builder.exe
+D:\Coding\Coding\ProjectDesign\ProjectDesign\Builder\bin\Debug\net6.0\Builder.deps.json
+D:\Coding\Coding\ProjectDesign\ProjectDesign\Builder\bin\Debug\net6.0\Builder.runtimeconfig.json
+D:\Coding\Coding\ProjectDesign\ProjectDesign\Builder\bin\Debug\net6.0\Builder.dll
+D:\Coding\Coding\ProjectDesign\ProjectDesign\Builder\bin\Debug\net6.0\ref\Builder.dll
+D:\Coding\Coding\ProjectDesign\ProjectDesign\Builder\bin\Debug\net6.0\Builder.pdb
+D:\Coding\Coding\ProjectDesign\ProjectDesign\Builder\obj\Debug\net6.0\Builder.GeneratedMSBuildEditorConfig.editorconfig
+D:\Coding\Coding\ProjectDesign\ProjectDesign\Builder\obj\Debug\net6.0\Builder.AssemblyInfoInputs.cache
+D:\Coding\Coding\ProjectDesign\ProjectDesign\Builder\obj\Debug\net6.0\Builder.AssemblyInfo.cs
+D:\Coding\Coding\ProjectDesign\ProjectDesign\Builder\obj\Debug\net6.0\Builder.csproj.CoreCompileInputs.cache
+D:\Coding\Coding\ProjectDesign\ProjectDesign\Builder\obj\Debug\net6.0\Builder.dll
+D:\Coding\Coding\ProjectDesign\ProjectDesign\Builder\obj\Debug\net6.0\ref\Builder.dll
+D:\Coding\Coding\ProjectDesign\ProjectDesign\Builder\obj\Debug\net6.0\Builder.pdb
+D:\Coding\Coding\ProjectDesign\ProjectDesign\Builder\obj\Debug\net6.0\Builder.genruntimeconfig.cache

@@ -15,7 +15,32 @@
       "ProjectGuid": "b2d78525-fdfc-42a4-ae84-78af5a7cc493",
       "DisplayName": "OpenClose",
       "ColorIndex": 2
+    },
+    "6c3ff0f7-2fae-4eda-83df-5c0614a1d723": {
+      "ProjectGuid": "6c3ff0f7-2fae-4eda-83df-5c0614a1d723",
+      "DisplayName": "LiskovSubstitution",
+      "ColorIndex": 3
+    },
+    "6f51a9d2-ba55-4cc8-bcfc-93029bc81863": {
+      "ProjectGuid": "6f51a9d2-ba55-4cc8-bcfc-93029bc81863",
+      "DisplayName": "InterfaceSegregation",
+      "ColorIndex": 4
+    },
+    "c8c65b87-1d69-4bb6-bb67-b40371b0bcbe": {
+      "ProjectGuid": "c8c65b87-1d69-4bb6-bb67-b40371b0bcbe",
+      "DisplayName": "DependencyInversion",
+      "ColorIndex": 5
+    },
+    "2c7c03ac-b903-416d-86f6-f1115f67dad4": {
+      "ProjectGuid": "2c7c03ac-b903-416d-86f6-f1115f67dad4",
+      "DisplayName": "Builder",
+      "ColorIndex": 6
+    },
+    "87c30fe9-f30a-4ea6-b19a-3f3d18bcf818": {
+      "ProjectGuid": "87c30fe9-f30a-4ea6-b19a-3f3d18bcf818",
+      "DisplayName": "Factory",
+      "ColorIndex": 7
     }
   },
-  "NextColorIndex": 3
+  "NextColorIndex": 8
 }

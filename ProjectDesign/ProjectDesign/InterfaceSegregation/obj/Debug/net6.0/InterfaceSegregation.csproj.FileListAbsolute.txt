@@ -1,0 +1,14 @@
+D:\Coding\Coding\ProjectDesign\ProjectDesign\InterfaceSegregation\bin\Debug\net6.0\InterfaceSegregation.exe
+D:\Coding\Coding\ProjectDesign\ProjectDesign\InterfaceSegregation\bin\Debug\net6.0\InterfaceSegregation.deps.json
+D:\Coding\Coding\ProjectDesign\ProjectDesign\InterfaceSegregation\bin\Debug\net6.0\InterfaceSegregation.runtimeconfig.json
+D:\Coding\Coding\ProjectDesign\ProjectDesign\InterfaceSegregation\bin\Debug\net6.0\InterfaceSegregation.dll
+D:\Coding\Coding\ProjectDesign\ProjectDesign\InterfaceSegregation\bin\Debug\net6.0\ref\InterfaceSegregation.dll
+D:\Coding\Coding\ProjectDesign\ProjectDesign\InterfaceSegregation\bin\Debug\net6.0\InterfaceSegregation.pdb
+D:\Coding\Coding\ProjectDesign\ProjectDesign\InterfaceSegregation\obj\Debug\net6.0\InterfaceSegregation.GeneratedMSBuildEditorConfig.editorconfig
+D:\Coding\Coding\ProjectDesign\ProjectDesign\InterfaceSegregation\obj\Debug\net6.0\InterfaceSegregation.AssemblyInfoInputs.cache
+D:\Coding\Coding\ProjectDesign\ProjectDesign\InterfaceSegregation\obj\Debug\net6.0\InterfaceSegregation.AssemblyInfo.cs
+D:\Coding\Coding\ProjectDesign\ProjectDesign\InterfaceSegregation\obj\Debug\net6.0\InterfaceSegregation.csproj.CoreCompileInputs.cache
+D:\Coding\Coding\ProjectDesign\ProjectDesign\InterfaceSegregation\obj\Debug\net6.0\InterfaceSegregation.dll
+D:\Coding\Coding\ProjectDesign\ProjectDesign\InterfaceSegregation\obj\Debug\net6.0\ref\InterfaceSegregation.dll
+D:\Coding\Coding\ProjectDesign\ProjectDesign\InterfaceSegregation\obj\Debug\net6.0\InterfaceSegregation.pdb
+D:\Coding\Coding\ProjectDesign\ProjectDesign\InterfaceSegregation\obj\Debug\net6.0\InterfaceSegregation.genruntimeconfig.cache

@@ -1,0 +1,15 @@
+D:\Coding\Coding\ProjectDesign\ProjectDesign\LiskovSubstitution\bin\Debug\net6.0\LiskovSubstitution.exe
+D:\Coding\Coding\ProjectDesign\ProjectDesign\LiskovSubstitution\bin\Debug\net6.0\LiskovSubstitution.deps.json
+D:\Coding\Coding\ProjectDesign\ProjectDesign\LiskovSubstitution\bin\Debug\net6.0\LiskovSubstitution.runtimeconfig.json
+D:\Coding\Coding\ProjectDesign\ProjectDesign\LiskovSubstitution\bin\Debug\net6.0\LiskovSubstitution.dll
+D:\Coding\Coding\ProjectDesign\ProjectDesign\LiskovSubstitution\bin\Debug\net6.0\ref\LiskovSubstitution.dll
+D:\Coding\Coding\ProjectDesign\ProjectDesign\LiskovSubstitution\bin\Debug\net6.0\LiskovSubstitution.pdb
+D:\Coding\Coding\ProjectDesign\ProjectDesign\LiskovSubstitution\obj\Debug\net6.0\LiskovSubstitution.csproj.AssemblyReference.cache
+D:\Coding\Coding\ProjectDesign\ProjectDesign\LiskovSubstitution\obj\Debug\net6.0\LiskovSubstitution.GeneratedMSBuildEditorConfig.editorconfig
+D:\Coding\Coding\ProjectDesign\ProjectDesign\LiskovSubstitution\obj\Debug\net6.0\LiskovSubstitution.AssemblyInfoInputs.cache
+D:\Coding\Coding\ProjectDesign\ProjectDesign\LiskovSubstitution\obj\Debug\net6.0\LiskovSubstitution.AssemblyInfo.cs
+D:\Coding\Coding\ProjectDesign\ProjectDesign\LiskovSubstitution\obj\Debug\net6.0\LiskovSubstitution.csproj.CoreCompileInputs.cache
+D:\Coding\Coding\ProjectDesign\ProjectDesign\LiskovSubstitution\obj\Debug\net6.0\LiskovSubstitution.dll
+D:\Coding\Coding\ProjectDesign\ProjectDesign\LiskovSubstitution\obj\Debug\net6.0\ref\LiskovSubstitution.dll
+D:\Coding\Coding\ProjectDesign\ProjectDesign\LiskovSubstitution\obj\Debug\net6.0\LiskovSubstitution.pdb
+D:\Coding\Coding\ProjectDesign\ProjectDesign\LiskovSubstitution\obj\Debug\net6.0\LiskovSubstitution.genruntimeconfig.cache

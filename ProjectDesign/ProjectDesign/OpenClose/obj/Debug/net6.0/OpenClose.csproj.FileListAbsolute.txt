@@ -1,0 +1,15 @@
+D:\Coding\Coding\ProjectDesign\ProjectDesign\OpenClose\bin\Debug\net6.0\OpenClose.exe
+D:\Coding\Coding\ProjectDesign\ProjectDesign\OpenClose\bin\Debug\net6.0\OpenClose.deps.json
+D:\Coding\Coding\ProjectDesign\ProjectDesign\OpenClose\bin\Debug\net6.0\OpenClose.runtimeconfig.json
+D:\Coding\Coding\ProjectDesign\ProjectDesign\OpenClose\bin\Debug\net6.0\OpenClose.dll
+D:\Coding\Coding\ProjectDesign\ProjectDesign\OpenClose\bin\Debug\net6.0\ref\OpenClose.dll
+D:\Coding\Coding\ProjectDesign\ProjectDesign\OpenClose\bin\Debug\net6.0\OpenClose.pdb
+D:\Coding\Coding\ProjectDesign\ProjectDesign\OpenClose\obj\Debug\net6.0\OpenClose.csproj.AssemblyReference.cache
+D:\Coding\Coding\ProjectDesign\ProjectDesign\OpenClose\obj\Debug\net6.0\OpenClose.GeneratedMSBuildEditorConfig.editorconfig
+D:\Coding\Coding\ProjectDesign\ProjectDesign\OpenClose\obj\Debug\net6.0\OpenClose.AssemblyInfoInputs.cache
+D:\Coding\Coding\ProjectDesign\ProjectDesign\OpenClose\obj\Debug\net6.0\OpenClose.AssemblyInfo.cs
+D:\Coding\Coding\ProjectDesign\ProjectDesign\OpenClose\obj\Debug\net6.0\OpenClose.csproj.CoreCompileInputs.cache
+D:\Coding\Coding\ProjectDesign\ProjectDesign\OpenClose\obj\Debug\net6.0\OpenClose.dll
+D:\Coding\Coding\ProjectDesign\ProjectDesign\OpenClose\obj\Debug\net6.0\ref\OpenClose.dll
+D:\Coding\Coding\ProjectDesign\ProjectDesign\OpenClose\obj\Debug\net6.0\OpenClose.pdb
+D:\Coding\Coding\ProjectDesign\ProjectDesign\OpenClose\obj\Debug\net6.0\OpenClose.genruntimeconfig.cache
