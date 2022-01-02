@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "d2ry3gF/Nn7CgDApLhjr+/pYmXDvbLpumkJQP8RhNgIciqRsFfl2s9WZpA+kWZWlUPCOzvl7Hr1mtEMm8G0idg==",
+  "dgSpecHash": "csJSg5Jda8wkGU9tXtq1TWi3i9z/9MuRZ9Cz+2R3pMKNLWW4ZFeVDwYwT8B0WFFKH95bpfutecZ3kGinVESBDw==",
   "success": true,
   "projectFilePath": "D:\\Coding\\Coding\\RestaurantAPI\\RestaurantAPI\\RestaurantAPI.csproj",
   "expectedPackageFiles": [
@@ -122,7 +122,8 @@
     "C:\\Users\\czech\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\czech\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\czech\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\czech\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    "C:\\Users\\czech\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
+    "C:\\Users\\czech\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.12\\microsoft.netcore.app.host.win-x64.5.0.12.nupkg.sha512"
   ],
   "logs": []
 }
