@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.SqlServer;
 
 namespace MyMinecraftSaverAPI.Entities
 {
@@ -7,10 +8,10 @@ namespace MyMinecraftSaverAPI.Entities
         private string _connectionString =
             "(Server)=(localdb)\\mssqllocaldb;Database=MinecraftSaverDb;Trusted_Connection=True;";
 
-        public MinecraftSaverDbContext(DbContextOptions<MinecraftSaverDbContext> options) : base(options)
-        {
-
-        }
+        //public MinecraftSaverDbContext(DbContextOptions<MinecraftSaverDbContext> options) : base(options)
+        //{
+        //
+        //}
 
         public DbSet<World> Worlds { get; set; }
         public DbSet<User> Users { get; set; }
@@ -29,6 +30,11 @@ namespace MyMinecraftSaverAPI.Entities
             modelBuilder.Entity<World>()
                 .Property(w => w.Name)
                 .IsRequired();
+        }
+
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            optionsBuilder.UseSqlServer(_connectionString);
         }
     }
 }

@@ -1,0 +1,14 @@
+D:\Coding\Coding\ProjectDesign\ProjectDesign\AbstractFactory\bin\Debug\net6.0\AbstractFactory.exe
+D:\Coding\Coding\ProjectDesign\ProjectDesign\AbstractFactory\bin\Debug\net6.0\AbstractFactory.deps.json
+D:\Coding\Coding\ProjectDesign\ProjectDesign\AbstractFactory\bin\Debug\net6.0\AbstractFactory.runtimeconfig.json
+D:\Coding\Coding\ProjectDesign\ProjectDesign\AbstractFactory\bin\Debug\net6.0\AbstractFactory.dll
+D:\Coding\Coding\ProjectDesign\ProjectDesign\AbstractFactory\bin\Debug\net6.0\ref\AbstractFactory.dll
+D:\Coding\Coding\ProjectDesign\ProjectDesign\AbstractFactory\bin\Debug\net6.0\AbstractFactory.pdb
+D:\Coding\Coding\ProjectDesign\ProjectDesign\AbstractFactory\obj\Debug\net6.0\AbstractFactory.GeneratedMSBuildEditorConfig.editorconfig
+D:\Coding\Coding\ProjectDesign\ProjectDesign\AbstractFactory\obj\Debug\net6.0\AbstractFactory.AssemblyInfoInputs.cache
+D:\Coding\Coding\ProjectDesign\ProjectDesign\AbstractFactory\obj\Debug\net6.0\AbstractFactory.AssemblyInfo.cs
+D:\Coding\Coding\ProjectDesign\ProjectDesign\AbstractFactory\obj\Debug\net6.0\AbstractFactory.csproj.CoreCompileInputs.cache
+D:\Coding\Coding\ProjectDesign\ProjectDesign\AbstractFactory\obj\Debug\net6.0\AbstractFactory.dll
+D:\Coding\Coding\ProjectDesign\ProjectDesign\AbstractFactory\obj\Debug\net6.0\ref\AbstractFactory.dll
+D:\Coding\Coding\ProjectDesign\ProjectDesign\AbstractFactory\obj\Debug\net6.0\AbstractFactory.pdb
+D:\Coding\Coding\ProjectDesign\ProjectDesign\AbstractFactory\obj\Debug\net6.0\AbstractFactory.genruntimeconfig.cache

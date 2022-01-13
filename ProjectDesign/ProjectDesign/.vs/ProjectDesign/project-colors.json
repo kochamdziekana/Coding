@@ -40,7 +40,17 @@
       "ProjectGuid": "87c30fe9-f30a-4ea6-b19a-3f3d18bcf818",
       "DisplayName": "Factory",
       "ColorIndex": 7
+    },
+    "bf6394c8-6994-4cc2-aca7-666405473a15": {
+      "ProjectGuid": "bf6394c8-6994-4cc2-aca7-666405473a15",
+      "DisplayName": "AbstractFactory",
+      "ColorIndex": 8
+    },
+    "f5fed22f-7537-4539-87d9-affe9ae6f344": {
+      "ProjectGuid": "f5fed22f-7537-4539-87d9-affe9ae6f344",
+      "DisplayName": "Prototype",
+      "ColorIndex": 9
     }
   },
-  "NextColorIndex": 8
+  "NextColorIndex": 10
 }
