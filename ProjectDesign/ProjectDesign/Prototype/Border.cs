@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace Prototype
 {
-    internal class Border
+    public class Border
     {
+        public string Color { get; set; }
+        public string Size { get; set; }
     }
 }

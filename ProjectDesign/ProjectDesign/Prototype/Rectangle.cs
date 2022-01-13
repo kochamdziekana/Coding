@@ -6,12 +6,11 @@ using System.Threading.Tasks;
 
 namespace Prototype
 {
-    public class Triangle : Shape
+    public class Rectangle : Shape
     {
         public override Shape Clone()
         {
-            // this.MemberwiseClone(); - płytka kopia, MemberwiseClone jest wbudowana w C# i można ją wywołać na każdym obiekcie
-            Triangle cloneBase = (Triangle)this.MemberwiseClone();
+            Rectangle cloneBase = (Rectangle)this.MemberwiseClone();
 
             cloneBase.Border = new Border() // dzięki temu tworzymy klona bo tworzymy nowy obiekt powiązany z Circle, tj. Border
             {
@@ -24,7 +23,7 @@ namespace Prototype
 
         public override void Render()
         {
-            Console.WriteLine("Render triangle.");
+            Console.WriteLine("Render rectangle.");
         }
     }
 }

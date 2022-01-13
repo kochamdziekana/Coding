@@ -1,0 +1,15 @@
+D:\Coding\Coding\ProjectDesign\ProjectDesign\Prototype\bin\Debug\net6.0\Prototype.exe
+D:\Coding\Coding\ProjectDesign\ProjectDesign\Prototype\bin\Debug\net6.0\Prototype.deps.json
+D:\Coding\Coding\ProjectDesign\ProjectDesign\Prototype\bin\Debug\net6.0\Prototype.runtimeconfig.json
+D:\Coding\Coding\ProjectDesign\ProjectDesign\Prototype\bin\Debug\net6.0\Prototype.dll
+D:\Coding\Coding\ProjectDesign\ProjectDesign\Prototype\bin\Debug\net6.0\ref\Prototype.dll
+D:\Coding\Coding\ProjectDesign\ProjectDesign\Prototype\bin\Debug\net6.0\Prototype.pdb
+D:\Coding\Coding\ProjectDesign\ProjectDesign\Prototype\obj\Debug\net6.0\Prototype.csproj.AssemblyReference.cache
+D:\Coding\Coding\ProjectDesign\ProjectDesign\Prototype\obj\Debug\net6.0\Prototype.GeneratedMSBuildEditorConfig.editorconfig
+D:\Coding\Coding\ProjectDesign\ProjectDesign\Prototype\obj\Debug\net6.0\Prototype.AssemblyInfoInputs.cache
+D:\Coding\Coding\ProjectDesign\ProjectDesign\Prototype\obj\Debug\net6.0\Prototype.AssemblyInfo.cs
+D:\Coding\Coding\ProjectDesign\ProjectDesign\Prototype\obj\Debug\net6.0\Prototype.csproj.CoreCompileInputs.cache
+D:\Coding\Coding\ProjectDesign\ProjectDesign\Prototype\obj\Debug\net6.0\Prototype.dll
+D:\Coding\Coding\ProjectDesign\ProjectDesign\Prototype\obj\Debug\net6.0\ref\Prototype.dll
+D:\Coding\Coding\ProjectDesign\ProjectDesign\Prototype\obj\Debug\net6.0\Prototype.pdb
+D:\Coding\Coding\ProjectDesign\ProjectDesign\Prototype\obj\Debug\net6.0\Prototype.genruntimeconfig.cache
