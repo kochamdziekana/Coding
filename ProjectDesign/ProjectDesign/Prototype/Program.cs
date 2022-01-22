@@ -28,14 +28,7 @@ namespace Prototype
 
             bool borderReferenceEquals = ReferenceEquals(circle.Border, circle2.Border);
             Console.WriteLine($"BorderReferenceEquals: {referenceEquals}.");
-            //if (referenceEquals)
-            //{
-            //    Console.WriteLine("Deep clone.");
-            //}
-            //else
-            //{
-            //    Console.WriteLine("Shallow clone.");
-            //}
+
         }
 
     }

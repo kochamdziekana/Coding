@@ -1,0 +1,14 @@
+D:\Coding\Coding\ProjectDesign\ProjectDesign\Observer\bin\Debug\net6.0\Observer.exe
+D:\Coding\Coding\ProjectDesign\ProjectDesign\Observer\bin\Debug\net6.0\Observer.deps.json
+D:\Coding\Coding\ProjectDesign\ProjectDesign\Observer\bin\Debug\net6.0\Observer.runtimeconfig.json
+D:\Coding\Coding\ProjectDesign\ProjectDesign\Observer\bin\Debug\net6.0\Observer.dll
+D:\Coding\Coding\ProjectDesign\ProjectDesign\Observer\bin\Debug\net6.0\ref\Observer.dll
+D:\Coding\Coding\ProjectDesign\ProjectDesign\Observer\bin\Debug\net6.0\Observer.pdb
+D:\Coding\Coding\ProjectDesign\ProjectDesign\Observer\obj\Debug\net6.0\Observer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Coding\Coding\ProjectDesign\ProjectDesign\Observer\obj\Debug\net6.0\Observer.AssemblyInfoInputs.cache
+D:\Coding\Coding\ProjectDesign\ProjectDesign\Observer\obj\Debug\net6.0\Observer.AssemblyInfo.cs
+D:\Coding\Coding\ProjectDesign\ProjectDesign\Observer\obj\Debug\net6.0\Observer.csproj.CoreCompileInputs.cache
+D:\Coding\Coding\ProjectDesign\ProjectDesign\Observer\obj\Debug\net6.0\Observer.dll
+D:\Coding\Coding\ProjectDesign\ProjectDesign\Observer\obj\Debug\net6.0\ref\Observer.dll
+D:\Coding\Coding\ProjectDesign\ProjectDesign\Observer\obj\Debug\net6.0\Observer.pdb
+D:\Coding\Coding\ProjectDesign\ProjectDesign\Observer\obj\Debug\net6.0\Observer.genruntimeconfig.cache

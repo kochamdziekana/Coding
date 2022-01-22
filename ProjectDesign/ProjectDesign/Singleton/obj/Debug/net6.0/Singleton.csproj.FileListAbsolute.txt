@@ -1,0 +1,14 @@
+D:\Coding\Coding\ProjectDesign\ProjectDesign\Singleton\obj\Debug\net6.0\Singleton.GeneratedMSBuildEditorConfig.editorconfig
+D:\Coding\Coding\ProjectDesign\ProjectDesign\Singleton\obj\Debug\net6.0\Singleton.AssemblyInfoInputs.cache
+D:\Coding\Coding\ProjectDesign\ProjectDesign\Singleton\obj\Debug\net6.0\Singleton.AssemblyInfo.cs
+D:\Coding\Coding\ProjectDesign\ProjectDesign\Singleton\obj\Debug\net6.0\Singleton.csproj.CoreCompileInputs.cache
+D:\Coding\Coding\ProjectDesign\ProjectDesign\Singleton\bin\Debug\net6.0\Singleton.exe
+D:\Coding\Coding\ProjectDesign\ProjectDesign\Singleton\bin\Debug\net6.0\Singleton.deps.json
+D:\Coding\Coding\ProjectDesign\ProjectDesign\Singleton\bin\Debug\net6.0\Singleton.runtimeconfig.json
+D:\Coding\Coding\ProjectDesign\ProjectDesign\Singleton\bin\Debug\net6.0\Singleton.dll
+D:\Coding\Coding\ProjectDesign\ProjectDesign\Singleton\bin\Debug\net6.0\ref\Singleton.dll
+D:\Coding\Coding\ProjectDesign\ProjectDesign\Singleton\bin\Debug\net6.0\Singleton.pdb
+D:\Coding\Coding\ProjectDesign\ProjectDesign\Singleton\obj\Debug\net6.0\Singleton.dll
+D:\Coding\Coding\ProjectDesign\ProjectDesign\Singleton\obj\Debug\net6.0\ref\Singleton.dll
+D:\Coding\Coding\ProjectDesign\ProjectDesign\Singleton\obj\Debug\net6.0\Singleton.pdb
+D:\Coding\Coding\ProjectDesign\ProjectDesign\Singleton\obj\Debug\net6.0\Singleton.genruntimeconfig.cache

@@ -50,7 +50,32 @@
       "ProjectGuid": "f5fed22f-7537-4539-87d9-affe9ae6f344",
       "DisplayName": "Prototype",
       "ColorIndex": 9
+    },
+    "e7daf9ec-0ccd-4c59-a6f9-2cd62c8c0fcc": {
+      "ProjectGuid": "e7daf9ec-0ccd-4c59-a6f9-2cd62c8c0fcc",
+      "DisplayName": "Singleton",
+      "ColorIndex": 10
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Różne pliki",
+      "ColorIndex": -1
+    },
+    "f0cdc1ee-e069-4330-88d3-83752f2cd66c": {
+      "ProjectGuid": "f0cdc1ee-e069-4330-88d3-83752f2cd66c",
+      "DisplayName": "Strategy",
+      "ColorIndex": 11
+    },
+    "6fd11b11-1c39-43fb-aedc-1e5808f5eb70": {
+      "ProjectGuid": "6fd11b11-1c39-43fb-aedc-1e5808f5eb70",
+      "DisplayName": "Observer",
+      "ColorIndex": 12
+    },
+    "fe820cb0-727c-40c2-bd5f-4f59e67fecbe": {
+      "ProjectGuid": "fe820cb0-727c-40c2-bd5f-4f59e67fecbe",
+      "DisplayName": "Mediator",
+      "ColorIndex": 13
     }
   },
-  "NextColorIndex": 10
+  "NextColorIndex": 14
 }

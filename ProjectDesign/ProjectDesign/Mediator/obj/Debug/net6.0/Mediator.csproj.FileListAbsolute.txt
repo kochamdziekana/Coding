@@ -1,0 +1,14 @@
+D:\Coding\Coding\ProjectDesign\ProjectDesign\Mediator\bin\Debug\net6.0\Mediator.exe
+D:\Coding\Coding\ProjectDesign\ProjectDesign\Mediator\bin\Debug\net6.0\Mediator.deps.json
+D:\Coding\Coding\ProjectDesign\ProjectDesign\Mediator\bin\Debug\net6.0\Mediator.runtimeconfig.json
+D:\Coding\Coding\ProjectDesign\ProjectDesign\Mediator\bin\Debug\net6.0\Mediator.dll
+D:\Coding\Coding\ProjectDesign\ProjectDesign\Mediator\bin\Debug\net6.0\ref\Mediator.dll
+D:\Coding\Coding\ProjectDesign\ProjectDesign\Mediator\bin\Debug\net6.0\Mediator.pdb
+D:\Coding\Coding\ProjectDesign\ProjectDesign\Mediator\obj\Debug\net6.0\Mediator.GeneratedMSBuildEditorConfig.editorconfig
+D:\Coding\Coding\ProjectDesign\ProjectDesign\Mediator\obj\Debug\net6.0\Mediator.AssemblyInfoInputs.cache
+D:\Coding\Coding\ProjectDesign\ProjectDesign\Mediator\obj\Debug\net6.0\Mediator.AssemblyInfo.cs
+D:\Coding\Coding\ProjectDesign\ProjectDesign\Mediator\obj\Debug\net6.0\Mediator.csproj.CoreCompileInputs.cache
+D:\Coding\Coding\ProjectDesign\ProjectDesign\Mediator\obj\Debug\net6.0\Mediator.dll
+D:\Coding\Coding\ProjectDesign\ProjectDesign\Mediator\obj\Debug\net6.0\ref\Mediator.dll
+D:\Coding\Coding\ProjectDesign\ProjectDesign\Mediator\obj\Debug\net6.0\Mediator.pdb
+D:\Coding\Coding\ProjectDesign\ProjectDesign\Mediator\obj\Debug\net6.0\Mediator.genruntimeconfig.cache
