@@ -8,6 +8,18 @@ namespace State
     {
         public static void Main(string[] args)
         {
+            var context = new Context();
+
+            context.EjectCard();
+
+            context.InsertCard();
+            context.InsertPin(4444);
+
+            context.InsertCard();
+            context.InsertPin(5555);
+            context.WithdrawCash(2000);
+            context.InsertCard();
+
         }
     }
 
