@@ -75,7 +75,22 @@
       "ProjectGuid": "fe820cb0-727c-40c2-bd5f-4f59e67fecbe",
       "DisplayName": "Mediator",
       "ColorIndex": 13
+    },
+    "bfd6c927-56a4-4c49-a044-2b1f8ed9f9a8": {
+      "ProjectGuid": "bfd6c927-56a4-4c49-a044-2b1f8ed9f9a8",
+      "DisplayName": "ChainOfResponsibility",
+      "ColorIndex": 14
+    },
+    "61415374-9278-400c-8b77-579fb307bd6f": {
+      "ProjectGuid": "61415374-9278-400c-8b77-579fb307bd6f",
+      "DisplayName": "TemplateMethod",
+      "ColorIndex": 15
+    },
+    "1e733f60-d1a8-467b-93d7-625b235c757b": {
+      "ProjectGuid": "1e733f60-d1a8-467b-93d7-625b235c757b",
+      "DisplayName": "State",
+      "ColorIndex": 0
     }
   },
-  "NextColorIndex": 14
+  "NextColorIndex": 1
 }
