@@ -1,0 +1,15 @@
+D:\Coding\Coding\ProjectDesign\ProjectDesign\Adapter\bin\Debug\net6.0\Adapter.exe
+D:\Coding\Coding\ProjectDesign\ProjectDesign\Adapter\bin\Debug\net6.0\Adapter.deps.json
+D:\Coding\Coding\ProjectDesign\ProjectDesign\Adapter\bin\Debug\net6.0\Adapter.runtimeconfig.json
+D:\Coding\Coding\ProjectDesign\ProjectDesign\Adapter\bin\Debug\net6.0\Adapter.dll
+D:\Coding\Coding\ProjectDesign\ProjectDesign\Adapter\bin\Debug\net6.0\ref\Adapter.dll
+D:\Coding\Coding\ProjectDesign\ProjectDesign\Adapter\bin\Debug\net6.0\Adapter.pdb
+D:\Coding\Coding\ProjectDesign\ProjectDesign\Adapter\obj\Debug\net6.0\Adapter.csproj.AssemblyReference.cache
+D:\Coding\Coding\ProjectDesign\ProjectDesign\Adapter\obj\Debug\net6.0\Adapter.GeneratedMSBuildEditorConfig.editorconfig
+D:\Coding\Coding\ProjectDesign\ProjectDesign\Adapter\obj\Debug\net6.0\Adapter.AssemblyInfoInputs.cache
+D:\Coding\Coding\ProjectDesign\ProjectDesign\Adapter\obj\Debug\net6.0\Adapter.AssemblyInfo.cs
+D:\Coding\Coding\ProjectDesign\ProjectDesign\Adapter\obj\Debug\net6.0\Adapter.csproj.CoreCompileInputs.cache
+D:\Coding\Coding\ProjectDesign\ProjectDesign\Adapter\obj\Debug\net6.0\Adapter.dll
+D:\Coding\Coding\ProjectDesign\ProjectDesign\Adapter\obj\Debug\net6.0\ref\Adapter.dll
+D:\Coding\Coding\ProjectDesign\ProjectDesign\Adapter\obj\Debug\net6.0\Adapter.pdb
+D:\Coding\Coding\ProjectDesign\ProjectDesign\Adapter\obj\Debug\net6.0\Adapter.genruntimeconfig.cache

@@ -1,0 +1,15 @@
+D:\Coding\Coding\ProjectDesign\ProjectDesign\Facade\bin\Debug\net6.0\Facade.exe
+D:\Coding\Coding\ProjectDesign\ProjectDesign\Facade\bin\Debug\net6.0\Facade.deps.json
+D:\Coding\Coding\ProjectDesign\ProjectDesign\Facade\bin\Debug\net6.0\Facade.runtimeconfig.json
+D:\Coding\Coding\ProjectDesign\ProjectDesign\Facade\bin\Debug\net6.0\Facade.dll
+D:\Coding\Coding\ProjectDesign\ProjectDesign\Facade\bin\Debug\net6.0\ref\Facade.dll
+D:\Coding\Coding\ProjectDesign\ProjectDesign\Facade\bin\Debug\net6.0\Facade.pdb
+D:\Coding\Coding\ProjectDesign\ProjectDesign\Facade\obj\Debug\net6.0\Facade.csproj.AssemblyReference.cache
+D:\Coding\Coding\ProjectDesign\ProjectDesign\Facade\obj\Debug\net6.0\Facade.GeneratedMSBuildEditorConfig.editorconfig
+D:\Coding\Coding\ProjectDesign\ProjectDesign\Facade\obj\Debug\net6.0\Facade.AssemblyInfoInputs.cache
+D:\Coding\Coding\ProjectDesign\ProjectDesign\Facade\obj\Debug\net6.0\Facade.AssemblyInfo.cs
+D:\Coding\Coding\ProjectDesign\ProjectDesign\Facade\obj\Debug\net6.0\Facade.csproj.CoreCompileInputs.cache
+D:\Coding\Coding\ProjectDesign\ProjectDesign\Facade\obj\Debug\net6.0\Facade.dll
+D:\Coding\Coding\ProjectDesign\ProjectDesign\Facade\obj\Debug\net6.0\ref\Facade.dll
+D:\Coding\Coding\ProjectDesign\ProjectDesign\Facade\obj\Debug\net6.0\Facade.pdb
+D:\Coding\Coding\ProjectDesign\ProjectDesign\Facade\obj\Debug\net6.0\Facade.genruntimeconfig.cache
