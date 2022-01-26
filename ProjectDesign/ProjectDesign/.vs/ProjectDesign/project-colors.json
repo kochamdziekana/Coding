@@ -100,7 +100,17 @@
       "ProjectGuid": "20045c57-ec91-432f-a850-255009d745dd",
       "DisplayName": "Facade",
       "ColorIndex": 2
+    },
+    "ad998423-fd6b-400c-b04a-28d9830d1a54": {
+      "ProjectGuid": "ad998423-fd6b-400c-b04a-28d9830d1a54",
+      "DisplayName": "Decorator",
+      "ColorIndex": 3
+    },
+    "dc84a069-7fd1-4fd9-bff6-c825c978f00e": {
+      "ProjectGuid": "dc84a069-7fd1-4fd9-bff6-c825c978f00e",
+      "DisplayName": "Proxy",
+      "ColorIndex": 4
     }
   },
-  "NextColorIndex": 3
+  "NextColorIndex": 5
 }

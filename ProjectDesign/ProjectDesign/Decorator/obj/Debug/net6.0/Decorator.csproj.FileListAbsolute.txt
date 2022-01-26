@@ -1,0 +1,14 @@
+D:\Coding\Coding\ProjectDesign\ProjectDesign\Decorator\bin\Debug\net6.0\Decorator.exe
+D:\Coding\Coding\ProjectDesign\ProjectDesign\Decorator\bin\Debug\net6.0\Decorator.deps.json
+D:\Coding\Coding\ProjectDesign\ProjectDesign\Decorator\bin\Debug\net6.0\Decorator.runtimeconfig.json
+D:\Coding\Coding\ProjectDesign\ProjectDesign\Decorator\bin\Debug\net6.0\Decorator.dll
+D:\Coding\Coding\ProjectDesign\ProjectDesign\Decorator\bin\Debug\net6.0\ref\Decorator.dll
+D:\Coding\Coding\ProjectDesign\ProjectDesign\Decorator\bin\Debug\net6.0\Decorator.pdb
+D:\Coding\Coding\ProjectDesign\ProjectDesign\Decorator\obj\Debug\net6.0\Decorator.GeneratedMSBuildEditorConfig.editorconfig
+D:\Coding\Coding\ProjectDesign\ProjectDesign\Decorator\obj\Debug\net6.0\Decorator.AssemblyInfoInputs.cache
+D:\Coding\Coding\ProjectDesign\ProjectDesign\Decorator\obj\Debug\net6.0\Decorator.AssemblyInfo.cs
+D:\Coding\Coding\ProjectDesign\ProjectDesign\Decorator\obj\Debug\net6.0\Decorator.csproj.CoreCompileInputs.cache
+D:\Coding\Coding\ProjectDesign\ProjectDesign\Decorator\obj\Debug\net6.0\Decorator.dll
+D:\Coding\Coding\ProjectDesign\ProjectDesign\Decorator\obj\Debug\net6.0\ref\Decorator.dll
+D:\Coding\Coding\ProjectDesign\ProjectDesign\Decorator\obj\Debug\net6.0\Decorator.pdb
+D:\Coding\Coding\ProjectDesign\ProjectDesign\Decorator\obj\Debug\net6.0\Decorator.genruntimeconfig.cache
